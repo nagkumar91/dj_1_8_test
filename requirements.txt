@@ -4,3 +4,4 @@ wsgiref==0.1.2
 gunicorn
 psycopg2
 dj_database_url
+whitenoise

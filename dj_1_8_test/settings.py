@@ -102,6 +102,9 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = 'media'
 STATIC_ROOT = 'static'
 
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+
 try:
     from local_settings import *
 except Exception as e:
