@@ -9,4 +9,4 @@ def list_all_TempData(request):
     for o in TempData.objects.all():
         objs.append(o.name)
 
-    return render(request, 'template.html', {"objs": objs})
+    return render(request, 'home.html', {"objs": objs})
