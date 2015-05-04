@@ -100,7 +100,7 @@ STATIC_URL = '/static/'
 
 # mandatory for hosting in heroku
 MEDIA_ROOT = 'media'
-STATIC_ROOT = 'static'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
