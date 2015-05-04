@@ -1,0 +1,1 @@
+web: gunicorn dj_1_8_test.wsgi
